@@ -10,5 +10,6 @@ model = DecisionTreeClassifier()
 model.fit(X.values,Y)
 #predict with the model
 prediction = model.predict([[6,6,18,30]])
+prediction1 = model.predict([[15,6,28,30]])
 print(prediction)
-
+print(prediction1)
